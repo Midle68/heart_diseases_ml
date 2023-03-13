@@ -11,7 +11,7 @@ def load():
 st.title("Heart Disease Detection App")
 st.markdown("**:red[Warning!]** The app shows only the _probable risk_ of having a heart disease."
             "\n**For an accurate diagnosis refer to the specialist!**")
-st.markdown("Fill in the following information and press 'Result' button to see the result:")
+st.markdown("Fill in the following information andr press 'Result' button to see the result:")
 
 gender = st.radio("Gender:", ('Male', 'Female'), key='gender')
 age = st.slider('Age:', 0, 100, 0, key='age')
